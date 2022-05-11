@@ -89,7 +89,7 @@ button:hover{
 	border: 3px solid white;
 	text-align: center;
 	width: 80%;
-	height: 35vh;
+	height: 38vh;
 	margin-left: 9.25vw;
 	margin-top: 25vh;
 	background: white;
@@ -133,7 +133,7 @@ button:hover{
 }
 
 #cc{
-	position: absolute;
+	position: fixed;
 	display: inline-block;
 	left: 300px;
 	font-size: 40px;
@@ -154,7 +154,8 @@ button:hover{
 }
 
 #colors{
-	margin-left: 5px;
+	position: fixed;
+	margin-left: -40px;
 	height: 5.0vh;
 	width: 8vw;
 	padding: 0;
